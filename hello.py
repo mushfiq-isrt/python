@@ -32,5 +32,8 @@ print(name)
 # how do you quote in python then?
 print('hello,"friend"')
 
+print("Hello,\"friend\"") # used escape character "\"
+
 """
+
 
