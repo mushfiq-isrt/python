@@ -34,9 +34,20 @@ print('hello,"friend"')
 
 print("Hello,\"friend\"") # used escape character "\"
 
-"""
-
-# final solution
+# final solution?
 name = input("What's your name? ")
+# removing blank space from str
+name = name.strip()
+
+# capitalizing name
+#name = name.capitalize() # only the first name gets capitalized
+name = name.title()
+
+print(f"Hello, {name}")
+"""
+# taking input
+name = input("What's your name? ").strip().title().strip()
+
+# printing 
 print(f"Hello, {name}")
 
