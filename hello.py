@@ -36,4 +36,7 @@ print("Hello,\"friend\"") # used escape character "\"
 
 """
 
+# final solution
+name = input("What's your name? ")
+print(f"Hello, {name}")
 
