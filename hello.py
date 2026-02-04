@@ -46,8 +46,11 @@ name = name.title()
 print(f"Hello, {name}")
 """
 # taking input
-name = input("What's your name? ").strip().title().strip()
+name = input("What's your name? ").strip().title()
+
+first, last =  name.split(" ")
 
 # printing 
-print(f"Hello, {name}")
+print(f"Hello, {first}")
+
 
